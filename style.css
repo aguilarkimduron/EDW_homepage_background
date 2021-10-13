@@ -44,7 +44,7 @@ svg{
     stroke-linecap: round;
 }
 #dv_flow3{
-    stroke-dasharray: 0.5 20;
+    stroke-dasharray: 0.5 4;
     stroke-dashoffset: 1000;
     animation: dash 30s linear infinite;
     animation-direction: alternate-reverse;
@@ -147,24 +147,32 @@ svg{
 
 
 
+#dl_stage_tbl2,
+#dl_stage_tbl3{
+    animation: dl_tbl 6s infinite; 
+}
+#dl_stage_tbl3{ animation-delay: 0.6s; }
 
-#dl_stage_tbl2{ animation: dl_tbl 6s infinite; }
-#dl_stage_tbl3{ animation: dl_tbl 4s infinite; }
+#dv_stage_tbl1,
+#dv_stage_tbl4{
+    animation: dv_tbl 6s infinite;
+}
+#dv_stage_tbl4{ animation-delay: 0.6s; }
 
-#dv_stage_tbl1{ animation: dv_tbl 6s infinite; }
-#dv_stage_tbl4{ animation: dv_tbl 4s infinite; }
-
-#bv_stage_tbl2{ animation: bv_tbl 4s infinite; }
-#bv_stage_tbl4{ animation: bv_tbl 5s infinite;}
+#bv_stage_tbl2,
+#bv_stage_tbl4{
+    animation: bv_tbl 6s infinite;
+}
+#bv_stage_tbl4{ animation-delay: 0.6s;}
 #bv_dfs_tbl1,
 #bv_dfs_tbl2,
 #bv_dfs_tbl3,
 #bv_dfs_tbl4{
     animation: bv_tbl 6s infinite;
 }
-#bv_dfs_tbl2 {animation-delay: 0.4s;}
-#bv_dfs_tbl3 {animation-delay: 0.8s;}
-#bv_dfs_tbl4 {animation-delay: 0.2s;}
+#bv_dfs_tbl2 {animation-delay: 0.6s;}
+#bv_dfs_tbl3 {animation-delay: 1.2s;}
+#bv_dfs_tbl4 {animation-delay: 1.5s;}
 
 @keyframes dl_tbl {
     0%{
