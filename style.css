@@ -71,11 +71,11 @@ svg{
     animation-direction: reverse;
     stroke-linecap: round;
 }
-#Gears > #Group > #Vector_5,
-#Gears > #Group_2 > #Vector_6,
-#Gears > #Group_3 > #Vector_7,
-#Gears > #Group_4 > #Vector_8,
-#Gears > #Group_5 > #Vector_9{
+#Gears > #Group > #Vector_31,
+#Gears > #Group_2 > #Vector_32,
+#Gears > #Group_3 > #Vector_33,
+#Gears > #Group_4 > #Vector_34,
+#Gears > #Group_5 > #Vector_35{
     transform-origin: center;
     transform-box: fill-box;
     animation: spin 4s infinite linear; 
@@ -171,7 +171,7 @@ svg{
         fill: white;
     }
     20%{
-        fill: #A48AD3;
+        fill: #00A1C9;
     }
     100%{
         fill: white;
@@ -183,7 +183,7 @@ svg{
         fill: white;
     }
     20%{
-        fill: #E5838C;
+        fill: #C51517;
     }
     100%{
         fill: white;
@@ -195,7 +195,7 @@ svg{
         fill: white;
     }
     20%{
-        fill: #6D8EF3;
+        fill: #678AF0;
     }
     100%{
         fill: white;
